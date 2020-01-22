@@ -1,0 +1,28 @@
+{
+  "name": "profile-generator",
+  "version": "1.0.0",
+  "description": "Will generate pdf file from github profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raquelacevedo/Profile-Generator.git"
+  },
+  "author": "Raquel Acevedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raquelacevedo/Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/raquelacevedo/Profile-Generator#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "debug": "^4.1.1",
+    "electron": "^7.1.9",
+    "electron-prebuilt": "^1.4.13",
+    "follow-redirects": "^1.9.0",
+    "inquirer": "^7.0.3",
+    "is-buffer": "^2.0.4"
+  }
+}

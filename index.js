@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const createHTML = require('./template.js');
 
+
 // set global variables so values can be set and used in different promises
 let color_bkgd = "yellow";
 let color_card = "yellow";
@@ -104,8 +105,8 @@ function buildGitResults(res,stars) {
 function generatePdf(html) {
   // function to use electron-html-to to generate pdf from html
   console.log("generatePdf",html);
-  var fs = require('fs'), convertFactory = require('electron-html-to');
-  
+  var fs = require('fs');
+  const convertFactory = require('electron-html-to');
   var conversion = convertFactory({ converterPath: convertFactory.converters.PDF });
   
   conversion({ html: html }, function(err, result) {

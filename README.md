@@ -19,7 +19,7 @@ Profile Generator is a command-line application that dynamically generates a PDF
 ## Commands for Running Application
 
 * Command line: node index.js 
-* input answers 
+* input answers to questions prompted
 
 ## Technologies Used
 
